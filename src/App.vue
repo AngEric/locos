@@ -8,4 +8,7 @@
 #app {
   font-family: 'Oswald', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>

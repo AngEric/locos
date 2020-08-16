@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-navbar toggleable="lg">
+    <b-navbar id="navbar-example2" toggleable="lg">
       <!-- Show this only on mobile & medium screens -->
-      <b-navbar-brand href="#" class="d-lg-none">
+      <b-navbar-brand href="#index" class="d-lg-none">
         <img src="@/assets/images/locos-white.png" class="my-logo">
       </b-navbar-brand>
 
@@ -10,16 +10,16 @@
 
       <b-collapse id="nav-collapse" is-nav class="justify-content-center">
         <b-navbar-nav>
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">Games</b-nav-item>
+          <b-nav-item href="#index">Home</b-nav-item>
+          <b-nav-item href="#games">Games</b-nav-item>
         </b-navbar-nav>
         <!-- Show this only on lg screens & bigger -->
-        <b-navbar-brand href="#" class="d-none d-lg-block my-logo-container">
+        <b-navbar-brand href="#index" class="d-none d-lg-block my-logo-container">
           <img src="@/assets/images/locos-white.png" class="my-logo">
         </b-navbar-brand>
 
         <b-navbar-nav>
-          <b-nav-item href="#">About Us</b-nav-item>
+          <b-nav-item href="#about">About Us</b-nav-item>
           <b-nav-item href="#">Policy</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -29,7 +29,9 @@
 
 <script>
 export default {
-
+  name: 'Header',
+  methods: {
+  }
 }
 </script>
 
