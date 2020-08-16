@@ -6,7 +6,8 @@
           <div>
             <div class="intro-title">Locos Creative</div>
             <div class="intro-subtitle">A team of passionate developer and designer</div>
-            <div class="intro-description" style="margin-top:10px;">Try our published games &amp; give your feedback</div>
+            <div class="intro-description" style="margin-top:10px; margin-bottom: 18px;">Try our published games &amp; give your feedback</div>
+            <b-button pill class="intro-button">Get Started</b-button>
           </div>
         </b-col>
         <b-col cols="12" md="6">
@@ -24,10 +25,13 @@ export default {
 </script>
 
 <style style="scss">
+.container {
+  /* font-family: 'Eb Garamond', sans-serif; */
+}
 
 .intro-body {
   background: #160c28;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 
 .intro-title {
@@ -50,5 +54,11 @@ export default {
   display: block;
   max-width: 100%;
   max-height: auto;
+}
+
+.intro-button {
+  padding: 8px 30px !important;
+  color: #160c28 !important;
+  background: #efcb68 !important;
 }
 </style>
