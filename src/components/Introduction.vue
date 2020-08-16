@@ -5,7 +5,7 @@
         <b-col cols="12" md="6" class="mb-4 mb-md-0">
           <div>
             <div class="intro-title">Locos Creative</div>
-            <div class="intro-subtitle">A team of passionate developer and designer</div>
+            <div class="intro-subtitle">An indie game studio that specialized in simulator game</div>
             <div class="intro-description" style="margin-top:10px; margin-bottom: 18px;">Try our published games &amp; give your feedback</div>
             <b-button pill class="intro-button">Get Started</b-button>
           </div>
@@ -25,13 +25,9 @@ export default {
 </script>
 
 <style style="scss">
-.container {
-  /* font-family: 'Eb Garamond', sans-serif; */
-}
-
 .intro-body {
   background: #160c28;
-  padding: 30px 0px;
+  padding: 50px 0px;
 }
 
 .intro-title {
