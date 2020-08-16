@@ -7,6 +7,7 @@
       <AboutUs id="about"/>
       <Policy id="policy"/>
     </div>
+    <Footer/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Introduction from '../components/Introduction';
 import Game from '../components/Game';
 import AboutUs from '../components/AboutUs';
 import Policy from '../components/Policy';
+import Footer from '../components/Footer';
 
 export default {
   name: 'HomePage',
@@ -25,6 +27,7 @@ export default {
     Game,
     AboutUs,
     Policy,
+    Footer,
   },
   data () {
     return {

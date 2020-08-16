@@ -18,7 +18,8 @@
             :title="item.name"
             :download="item.download"
             :review="item.review"
-            :icon="item.icon"/>
+            :icon="item.icon"
+            :link="item.link"/>
         </b-col>
       </b-row>
     </b-container>
@@ -33,18 +34,21 @@ const gameList = [
     download: '10.000.000+',
     review: 297875,
     icon: 'icon-mbs',
+    link: 'https://play.google.com/store/apps/details?id=com.Locos.MBS',
   },
   {
     name: 'Mobile Truck Simulator',
     download: '10.000.000+',
     review: 44447,
     icon: 'icon-mts',
+    link: 'https://play.google.com/store/apps/details?id=com.Locos.MTS',
   },
   {
     name: 'Telolet Bus Driving',
     download: '10.000.000+',
     review: 91548,
     icon: 'icon-tbd',
+    link: 'https://play.google.com/store/apps/details?id=com.Locos.Telolet',
   }
 ];
 

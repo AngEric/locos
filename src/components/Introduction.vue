@@ -8,7 +8,7 @@
             <div class="intro-title">Locos Creative</div>
             <div class="intro-subtitle">An indie game studio that specialized in simulator game</div>
             <div class="intro-description" style="margin-top:10px; margin-bottom: 18px;">Try our published games &amp; give your feedback</div>
-            <b-button pill class="intro-button">Get Started</b-button>
+            <b-button pill class="intro-button" href="#games">Get Started</b-button>
           </div>
         </b-col>
         <b-col cols="12" md="6">

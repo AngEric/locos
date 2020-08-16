@@ -24,9 +24,12 @@
     </b-row>
     <b-row>
       <b-col class="card-col" cols="12">
-        <b-button class="card-button" @click="goToPlayStore">
+        <a class="card-button" :href="link">
           <img class="card-img-button" src="@/assets/images/googleplay.png">
-        </b-button>
+        </a>
+        <!-- <b-button class="card-button" @click="goToPlayStore">
+          <img class="card-img-button" src="@/assets/images/googleplay.png">
+        </b-button> -->
       </b-col>
     </b-row>
   </b-card>
@@ -35,7 +38,7 @@
 <script>
 export default {
   name: 'GameCard',
-  props: ['title', 'download', 'review', 'icon'],
+  props: ['title', 'download', 'review', 'icon', 'link'],
   methods: {
     getImage(path) {
       const images = require.context('../../assets/images', false, /\.png$/);

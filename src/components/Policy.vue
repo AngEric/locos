@@ -30,7 +30,8 @@ export default {
 <style lang="scss">
 .policy-body {
   padding: 30px;
-  margin-top: -30px;
+  margin-top: -40px;
+  margin-bottom: 30px;
 }
 .policy-title {
   font-size: 40px;
