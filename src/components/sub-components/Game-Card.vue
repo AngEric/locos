@@ -24,8 +24,9 @@
     </b-row>
     <b-row>
       <b-col class="card-col" cols="12">
-        <b-button href="#" variant="primary">Go to Playstore</b-button>
-        <!-- <b-button src="@/assets/images/googleplay.png"></b-button> -->
+        <b-button class="card-button" @click="goToPlayStore">
+          <img class="card-img-button" src="@/assets/images/googleplay.png">
+        </b-button>
       </b-col>
     </b-row>
   </b-card>
@@ -40,11 +41,14 @@ export default {
       const images = require.context('../../assets/images', false, /\.png$/);
       return images('./' + path + ".png");
     },
+    goToPlayStore(e){
+      e.preventDefault();
+    }
   },
 }
 </script>
 
-<style>
+<style lang="scss">
 .row {
   margin-top: 12px;
 }
@@ -63,5 +67,18 @@ export default {
   font-size: 22px;
   font-weight: bold;
   color: #160c28;
+}
+.card-button {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0px !important;
+  .card-img-button {
+    width: 180px;
+    height: 70px;
+  }
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 </style>
