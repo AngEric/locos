@@ -5,6 +5,7 @@
       <Introduction id="index"/>
       <Game id="games"/>
       <AboutUs id="about"/>
+      <Policy id="policy"/>
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Header from '../components/Header';
 import Introduction from '../components/Introduction';
 import Game from '../components/Game';
 import AboutUs from '../components/AboutUs';
+import Policy from '../components/Policy';
 
 export default {
   name: 'HomePage',
@@ -22,6 +24,7 @@ export default {
     Introduction,
     Game,
     AboutUs,
+    Policy,
   },
   data () {
     return {

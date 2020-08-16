@@ -20,7 +20,7 @@
 
         <b-navbar-nav>
           <b-nav-item href="#about">About Us</b-nav-item>
-          <b-nav-item href="#">Policy</b-nav-item>
+          <b-nav-item href="#policy">Policy</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
