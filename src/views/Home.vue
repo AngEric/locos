@@ -1,7 +1,8 @@
 <template>
   <div>
     <Header/>
-    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <!-- Padding top for fixed navbar -->
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" style="padding-top: 70px;">
       <Introduction id="index"/>
       <Game id="games"/>
       <AboutUs id="about"/>
