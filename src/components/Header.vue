@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar id="navbar-example2" toggleable="lg">
+    <b-navbar id="navbar-example2" toggleable="lg" fixed="top">
       <!-- Show this only on mobile & medium screens -->
       <b-navbar-brand href="#index" class="d-lg-none">
         <img src="@/assets/images/locos-white.png" class="my-logo">

@@ -8,6 +8,11 @@
             <div class="intro-title">Locos Creative</div>
             <div class="intro-subtitle">An indie game studio that specialized in simulator game</div>
             <div class="intro-description" style="margin-top:10px; margin-bottom: 18px;">Try our published games &amp; give your feedback</div>
+            <div>
+              <span><img class="intro-award" src="@/assets/images/award-igc-2017.jpg"></span>
+              <span><img class="intro-award" src="@/assets/images/award-googleplay-2017.jpg"></span>
+              <span><img class="intro-award" src="@/assets/images/award-gameprime-2017.jpg"></span>
+            </div>
             <b-button pill class="intro-button" href="#games">Get Started</b-button>
           </div>
         </b-col>
@@ -56,8 +61,16 @@ export default {
 }
 
 .intro-button {
-  padding: 8px 30px !important;
+  padding: 8px 40px !important;
   color: #160c28 !important;
   background: #efcb68 !important;
+  margin-top: 20px;
+}
+
+.intro-award {
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
 }
 </style>

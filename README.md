@@ -1,4 +1,4 @@
-# project-l
+# Locos 
 
 ## Project setup
 ```
